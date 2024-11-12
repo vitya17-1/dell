@@ -17,9 +17,7 @@ body {
     
 }
 
-.logo__img{
-    background-image: url(/ic/Group.svg);
-}
+
 .container {
     padding: 0 16px;
 }
@@ -137,7 +135,7 @@ body {
     height: 10px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/ic/icon.svg");
+    background-image: url("/dell/ic/icon.svg");
 }
 .label{
     font-family: "TT Lakes";

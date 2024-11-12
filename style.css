@@ -122,12 +122,13 @@ body {
 }
 .about-text__hidden{
     margin: 0;
-    margin-bottom: 16px;
-    height: 100px;
+    margin-bottom: 14px;
+    height: 90px;
     font-size: 14px;
     line-height: 18px;
     color: #1B1C21;
     overflow: hidden;
+    letter-spacing:0.2px;
 }
 .read-more__ico {
     display: inline-block;

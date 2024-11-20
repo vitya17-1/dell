@@ -20,7 +20,7 @@ body {
 
 
 .menu-left__burger-btn{
-    background-image: url(ic/burger.svg);
+    background-image: url(./ic/burger.svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 40px;

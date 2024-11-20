@@ -19,7 +19,7 @@ body {
 
 
 .menu-left__burger-btn{
-    background: url(./ic/burger.svg);
+    background: url(ic/burger.svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 40px;
@@ -28,7 +28,7 @@ body {
 }
 
 .btn__chat{
-    background: url(../ic/chat.svg);
+    background: url(ic/chat.svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 40px;

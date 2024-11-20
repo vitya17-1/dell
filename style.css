@@ -28,9 +28,7 @@ body {
 }
 
 
-.logo__link{
-    margin:-50px;   
-}
+
 
 .btn__chat{
    background: url(img/chat.svg);
@@ -238,6 +236,11 @@ body {
 
 }
  @media (min-width: 768px){
+
+  .logo__link{
+    margin:-50px;  
+    
+}
     .container{
         padding: 0 24px;
     }

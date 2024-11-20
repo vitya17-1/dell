@@ -18,6 +18,73 @@ body {
 }
 
 
+
+.menu-left__burger-btn{
+    background-image: url(/ic/burger.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.btn__chat{
+    background-image: url(/ic/chat.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+
+}
+
+.btn__call{ background-image: url(/ic/call.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+
+
+}
+
+.btn__status{
+    background-image: url(/ic/checkstatus.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+
+}
+
+.btn__repair{
+    background-image: url(/ic/repair.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.btn__profile{
+
+    background-image: url(/ic/profile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+
+.services-inner__desktop,
+.read-more,
+.about-text__hidden {
+    margin: 0; /* Убери все выпадающие отступы */
+}
+
+
 .container {
     padding: 0 16px;
 }
@@ -42,11 +109,15 @@ body {
     gap: 16px;
 } 
 /* Скрываем блоки на мобильной версии */
+.menu-right__btn{
+    display: none;
+}
  .menu-right__callback,
  .menu-repair__btn,
  .menu-status__btn{
     display: none;
 }
+
 .menu-left__burger-btn,
 .menu-callback__btn,
 .menu-ico__btn{
@@ -58,7 +129,7 @@ body {
 .menu-ico__btn:first-child{
     position: relative;
 }
-.menu-ico__btn:first-child::before {
+/* .menu-ico__btn:first-child::before {
     content: "";
     background: #EAEAEA;
     width: 2px;
@@ -66,7 +137,7 @@ body {
     position: absolute;
     right: 60px;
     top: 5px;
-}
+} */
 .services-inner{
     display: flex;
     text-align: center; 
@@ -135,7 +206,7 @@ body {
     height: 10px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/dell/ic/icon.svg");
+    background-image: url("ic/icon.svg");
 }
 .label{
     font-family: "TT Lakes";
@@ -177,7 +248,8 @@ body {
     .menu-left__burger-btn{
         position: relative;
     }
-    .menu-left__burger-btn::after{
+     /* .menu-left__burger-btn::after{ 
+        display: block;
         content: "";
         background: #EAEAEA;
         width: 2px;
@@ -185,6 +257,37 @@ body {
         position: absolute;
         left: 60px;
         top: 5px;
+         */
+
+
+         .header__decor::after{
+            display: block;
+            content: "";
+            background: #EAEAEA;
+            width: 2px;
+            height: 32px;
+            position: absolute;
+            left: 80px;
+            top: 30px;
+
+
+         
+    }
+
+
+
+    .menu-right__btn{
+        display: none;
+    }
+    .header__decor::before{
+        content: "";
+    background: #EAEAEA;
+    width: 2px;
+    height: 32px;
+    position: absolute;
+    right: 145px;
+    top: 30px;
+
     }
     .title-services{
         margin-bottom: 32px;
@@ -263,10 +366,24 @@ body {
         justify-content: space-between;
         align-items: center;
     }
-    .menu-right{
-        gap: 32px;
+
+
+    .menu-repair__btn{
+
+        display: flex;
+        align-items: center;
+    
+    }
+ 
+    .menu-right__btn{
+        display: flex;
+        flex-direction: row;
+        gap: 0 32px;
+      
     }
     .menu-repair__text{
+        display: flex;
+       align-items: center;
         width: auto;
         font-size: 16px;
         line-height: 24px;
@@ -281,4 +398,68 @@ body {
         height: 300px;
         border-radius: 6px;
     }
+
+
+/* 
+    .menu-status__btn{
+background-image: url(/ic/checkstatus.svg);
+background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+
+    }
+    .menu-repair__btn{
+        background-image: url(/ic/repair.svg);
+        background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    } */
+
+
+    .menu-right__btn {
+        display: flex;
+        gap: 0 32px;
+      }
+    
+      .buttons-wrap__item {
+        display: flex;
+        align-items: center;
+        color: #1B1C21;
+        font-family: 'TT Lakes';
+        font-weight: 500;
+      }
+
+      .header__icon--rep{
+        background: url(/ic/repair.svg) no-repeat 50% 50%;
+    }
+    
+    .header__icon--status {
+        background: url(/ic/checkstatus.svg) no-repeat 50% 50%;
+    }
+
+    .header__icon {
+        width: 40px;
+        height: 40px;
+        background-color: #FF3E79;
+        border-radius: 50%;
+      }
+      .menu-right__btn {
+        display: flex;
+        gap: 0 32px;
+      }
+      .buttons-wrap__item {
+        display: flex;
+        align-items: center;
+        color: #1B1C21;
+        font-family: 'TT Lakes';
+        font-weight: 500;
+        text-decoration: none;
+      }
+      .header__icon {
+        margin-left: 8px;
+      }
   }  

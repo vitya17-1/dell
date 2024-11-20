@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -11,34 +11,26 @@
         <div class="container"> 
             <div class="header__inner">
                 <nav class="menu-left">
-                    <button class="menu-left__burger-btn">
-                        <img class="menu-left__burger-img" src="/dell/ic/burger.svg" alt="menu">
-                    </button>
+                    <button class="menu-left__burger-btn btn--burger btn__burger"></button>
+                   <div class="header__decor header__decor--mob"></div>
+
                     <div class="logo">
                         <a class="logo__link" href="#">
-                            <img class="logo__img" src="/dell/ic/Group.svg" alt="logo">
+                            <img class="logo__img" src="/ic/Group.svg" alt="logo">
                         </a>
                     </div>
                 </nav>
                 <div class="menu-right__inner">
                     <div class="menu-right__callback">
-                        <button class="menu-callback__btn">
-                            <img class="menu-call__ico" src="/dell/ic/call.svg" alt="call menu">
-                        </button>
-                        <button class="menu-callback__btn">
-                            <img class="menu-chat__ico" src="/dell/ic/chat.svg" alt="chat menu">
-                        </button>
-                        <button class="menu-callback__btn">
-                            <img class="menu-profile__ico" src="/dell/ic/profile.svg" alt="profile menu">
-                        </button>
+                        <button class="menu-callback__btn btn--burger btn__call"></button>
+                        <button class="menu-callback__btn btn--burger btn__chat"></button>
+                        <button class="menu-callback__btn btn--burger btn__profile"></button>
                     </div>
+                
                     <div class="menu-right">
-                        <button class="menu-ico__btn">
-                            <img class="repair-ico" src="/dell/ic/repair.svg" alt="repair menu">
-                        </button>
-                        <button class="menu-ico__btn">
-                            <img class="status-ico" src="/dell/ic/checkstatus.svg" alt="status menu">
-                        </button>
+                        <div class="header__decor"></div>
+                        <button class="menu-ico__btn btn--burger btn__repair"> </button>
+                        <button class="menu-ico__btn btn--burger btn__status"> </button>
                     </div>
                 </div>
             </div>
@@ -52,15 +44,15 @@
                         <h1 class="title-services">
                             Услуги и сервисы
                         </h1>
-                        <div class="menu-right">
-                            <button class="menu-repair__btn">
-                                <p class="menu-repair__text">Оставить заявку</p>
-                                <img class="repair-ico" src="/dell/ic/repair.svg" alt="repair menu">
-                            </button>
-                            <button class="menu-status__btn">
-                                <p class="menu-repair__text">Статус ремонта</p>
-                                <img class="status-ico" src="/dell/ic/checkstatus.svg" alt="status menu">
-                            </button>
+                        <div class="menu-right__btn">
+                            <a class="buttons-wrap__item" href="#"
+                              >Оставить заявку
+                              <div class="header__icon header__icon--rep"></div>
+                            </a>
+                            <a class="buttons-wrap__item" href="#"
+                              >Статус ремонта
+                              <div class="header__icon header__icon--status"></div>
+                            </a>
                         </div>
                     </div>
                 </div>

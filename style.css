@@ -49,7 +49,7 @@ body {
 }
 
 .btn__status{
-    background: url(/ic/checkstatus.svg);
+    background: url(ic/checkstatus.svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 40px;

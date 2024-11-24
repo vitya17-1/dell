@@ -11,26 +11,27 @@
         <div class="container"> 
             <div class="header__inner">
                 <nav class="menu-left">
-                    <button class="menu-left__burger-btn btn--burger btn__burger"></button>
-                   <div class="header__decor header__decor--mob"></div>
+                    <button class="round-icon round-icon--burger"></button>
 
                     <div class="logo">
                         <a class="logo__link" href="#">
                             <img class="logo__img" src="ic/Group.svg" alt="logo">
                         </a>
+                        <div class="logo__decor"></div>
                     </div>
                 </nav>
-                <div class="menu-right__inner">
+                <div class="menu-right">
                     <div class="menu-right__callback">
-                        <button class="menu-callback__btn btn--burger btn__call"></button>
-                        <button class="menu-callback__btn btn--burger btn__chat"></button>
-                        <button class="menu-callback__btn btn--burger btn__profile"></button>
+                        <button class="round-icon round-icon--call"></button>
+                        <button class="round-icon round-icon--chat"></button>
+                        <button class="round-icon round-icon--profile"></button>
+                        <div class="menu-right__callback-decor"></div>
                     </div>
                 
-                    <div class="menu-right">
-                        <div class="header__decor"></div>
-                        <button class="menu-ico__btn btn--burger btn__repair"> </button>
-                        <button class="menu-ico__btn btn--burger btn__status"> </button>
+                    <div class="menu-right__inner">
+                        <button class="round-icon round-icon--repair"> </button>
+                        <button class="round-icon round-icon--status"> </button>
+                        <div class="menu-right__decor"></div>
                     </div>
                 </div>
             </div>
@@ -44,53 +45,40 @@
                         <h1 class="title-services">
                             Услуги и сервисы
                         </h1>
-                        <div class="menu-right__btn">
-                            <a class="buttons-wrap__item" href="#"
-                              >Оставить заявку
-                              <div class="header__icon header__icon--rep"></div>
-                            </a>
-                            <a class="buttons-wrap__item" href="#"
-                              >Статус ремонта
-                              <div class="header__icon header__icon--status"></div>
-                            </a>
-                        </div>
+                    <div class="services__buttons">
+                        <a class="buttons-wrap__item" href="#">
+                            Оставить заявку
+                            <div class="header__icon header__icon--rep"></div>
+                        </a>
+                        <a class="buttons-wrap__item" href="#">
+                            Статус ремонта
+                            <div class="header__icon header__icon--status"></div>
+                        </a>
                     </div>
                 </div>
-                <ul class="menu-services">
-                    <div class="menu-services__inner">
-                        <li class="menu-services__item">
-                            <a href="#" class="item__link">
-                                Ремонтируемые устройства
-                            </a>
-                        </li>
-                        <li class="menu-services__item">
-                            <a href="#" class="item__link">
-                                Ремонтируемые бренды
-                            </a>
-                        </li>
-                        <li class="menu-services__item">
-                            <a href="#" class="item__link">
-                                Цены и услуги
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="item__link">
-                                Адреса сервисных центров
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="item__link">
-                                Специальные цены
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="item__link">
-                                Отзывы
-                            </a>
-                        </li>
-                    </div>
-                </ul>
             </div>
+            <nav class="menu-services">
+                <ul class="menu-services__list">
+                    <li class="menu-services__item">
+                        <a href="#" class="item__link">Ремонтируемые устройства</a>
+                    </li>
+                    <li class="menu-services__item">
+                        <a href="#" class="item__link">Ремонтируемые бренды</a>
+                    </li>
+                    <li class="menu-services__item">
+                        <a href="#" class="item__link">Цены и услуги</a>
+                    </li>
+                    <li class="menu-services__item">
+                        <a href="#" class="item__link">Адреса сервисных центров</a>
+                    </li>
+                    <li class="menu-services__item">
+                        <a href="#" class="item__link">Специальные цены</a>
+                    </li>
+                    <li class="menu-services__item">
+                        <a href="#" class="item__link">Отзывы</a>
+                    </li>
+                </ul>
+            </nav>
         </section>
         <section class="about">
             <div class="container">
@@ -104,14 +92,17 @@
                             клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким
                         </p>
                         <div class="read-more">
-                            <input class="read-more__text--checked" id="htc-1" type="checkbox">
-                            <label class="read-more__btn" for="htc-1"><span class="read-more__ico"></span>Читать далее</label>
+                            <button class="read-more__btn">
+                                <span class="read-more__ico"></span>Читать далее
+                            </button>
                         </div>
                     </div>
-                     <img class="office__office" src="img/ZADOLBALA.jpg" alt="Вывеска компании">
+                    <div class="about__office">
+                        <img class="office__office" src="img/ZADOLBALA.jpg" alt="Вывеска компании">
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 </body>
- </html> 
+</html>
